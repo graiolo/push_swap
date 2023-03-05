@@ -12,7 +12,7 @@ Finished: 2023-03-05. Grade: 84/100
 You will now be in the correct directory for compilation. Compile with ```make```. Push-swap should now be ready!
 
 ```shell
-./push_swap <arg1> <arg2> <arg3> <...>
+./push_swap <arg1> <arg2> <...>
 ```
 or
 
