@@ -6,7 +6,7 @@
 /*   By: graiolo <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/23 12:06:50 by graiolo           #+#    #+#             */
-/*   Updated: 2023/03/05 19:21:14 by graiolo          ###   ########.fr       */
+/*   Updated: 2023/07/01 23:04:11 by graiolo          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ int	main(int argc, char **argv)
 	ft_init_head(&a_list);
 	if (argc == 1 || ft_check_valid(a_list, argc, argv) == false)
 	{
-		write(1, "Error\n", 6);
+		write(2, "Error\n", 6);
 		return (1);
 	}
 	ft_abs_list(*a_list);
